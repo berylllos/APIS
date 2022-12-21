@@ -13,12 +13,12 @@
     </group>
     <group android:id="@+id/group_admin">
         <item
-            android:id="@+id/reboot"
-            android:title="@string/reboot"
-            app:showAsAction="withText" />
-        <item
             android:id="@+id/shutdown"
             android:title="@string/shutdown"
+            app:showAsAction="withText" />
+        <item
+            android:id="@+id/reboot"
+            android:title="@string/reboot"
             app:showAsAction="withText" />
         <item
             android:id="@+id/factory_reset"
